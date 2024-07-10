@@ -1,0 +1,31 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("./../img/page-bg.jpg");
+  background-attachment: fixed;
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--text-color);
+  font-family: var(--font-main);
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--text-color);
+}
+
+.wrapper {
+  min-height: 100vh;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    290deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.6) 20%,
+    rgba(255, 255, 255, 1) 55%,
+    rgba(255, 255, 255, 1) 75%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}

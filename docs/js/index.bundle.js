@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",(function(){const t=document.getElementById("durationFilter"),e=document.querySelectorAll(".subscription-card"),n=function(){const n=t.value;e.forEach((t=>{const e=t.getAttribute("data-duration");t.style.display="all"===n||n===e?"flex":"none"}))};n(),t.addEventListener("change",n)}));
